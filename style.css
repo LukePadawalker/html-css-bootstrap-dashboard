@@ -1,6 +1,6 @@
 .logo-boolean{
-    max-width: 120px;
-    max-height: 120px;
+    max-width: 80px;
+    max-height: 80px;
 }
 
 
@@ -60,6 +60,12 @@ nav{
 }
 
 @media screen and (min-width: 992px){
+    
+    .logo-boolean{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
     nav{
         flex-basis: 200px;
     }
